@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<head>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&display=swap" rel="stylesheet">
+
+<style>
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background: linear-gradient(90deg, #00b894, #00cec9);
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 50px;
+        
+    }
+
+    .quote-div {
+        position: relative;
+        top: 80px;
+        margin-bottom: 50px;
+        
+       
+        
+    }
+
+    .quote {
+        font-size: 30px;
+       
+    }
+
+    .p-div {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+       
+    }
+
+
+    .container {
+  height: 200px;
+  position: relative;
+  top: 40px;
+  
+}
+
+
+.button-cont {
+  margin: 0;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);}
+
+.button {
+    background: none;
+    border: solid;
+    border-width: 1.5px;
+    padding: 5px;
+    width: 150px;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+  
+
+.img-div {
+    overflow: hidden;
+    display: flex;
+ justify-content: center;
+  align-items: center;
+  
+}
+    
+.img { 
+    margin-top: 70px;;
+    height: 400px;
+}
+    
+
+.box {
+  background: rgba(0, 14, 45, 0.3);
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  border-radius: 50px;
+ 
+  
+}
+
+
+</style>
+
+
+
+<script> 
+
+
+</script>
+
+
+
+
+
+
+
+
+
+<meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+<title>Random Quote Machine</title>
+</head>
+
+<body>
+
+    
+
+    <div class="box">
+
+    <div class= "img-div">
+        <div class= "img">
+             <img class="quote-img" src= "https://static.wikia.nocookie.net/onepiece/images/2/21/Piratas_de_Sombrero_de_Paja_bandera.png/revision/latest/scale-to-width-down/340?cb=20181226203724&path-prefix=es" alt= "Zoro's sacrifice" >
+
+           
+        </div>
+    </div>
+
+    <div class= "quote-div">
+        <div class= "p-div"><p class="quote" id="quote">"One Piece" random quote generator!</p> </div>
+    </div>
+
+    <div class="container">
+        <div class= "button-cont">
+        <button class="button" onClick="newQuote()">
+            Next Quote
+        </button>
+        </div>
+    </div>
+    
+
+</div>
+
+
+<script src="RQM.js"></script>
+</body>
+
+
+</html>
